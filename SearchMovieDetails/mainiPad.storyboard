@@ -32,11 +32,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter here..." minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="kyc-J0-FFc">
-                                <rect key="frame" x="16" y="168" width="343" height="40"/>
+                                <rect key="frame" x="4" y="168" width="367" height="50"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="g9V-Nh-MEb"/>
-                                    <constraint firstAttribute="width" constant="343" id="i9Y-D0-H2m"/>
+                                    <constraint firstAttribute="height" constant="50" id="g9V-Nh-MEb"/>
+                                    <constraint firstAttribute="width" constant="367" id="i9Y-D0-H2m"/>
                                 </constraints>
                                 <color key="textColor" red="0.43529412150000002" green="0.4431372583" blue="0.47450980539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="19"/>
@@ -127,13 +127,13 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="prN-4S-rDL">
-                                <rect key="frame" x="168" y="230" width="40" height="21.5"/>
+                                <rect key="frame" x="168" y="240" width="40" height="21.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1gW-Zl-MiS">
-                                <rect key="frame" x="4" y="259" width="367" height="50"/>
+                                <rect key="frame" x="4" y="269" width="367" height="50"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fxl-75-Xku">
                                         <rect key="frame" x="184" y="0.0" width="1" height="50"/>
@@ -237,7 +237,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LzB-k9-Q40">
-                                <rect key="frame" x="4" y="347" width="367" height="50"/>
+                                <rect key="frame" x="4" y="357" width="367" height="50"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gcI-g2-DXM">
                                         <rect key="frame" x="184" y="0.0" width="1" height="50"/>
@@ -335,7 +335,7 @@
                                 </variation>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search By" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gir-UC-4zn">
-                                <rect key="frame" x="146.5" y="311" width="82" height="22"/>
+                                <rect key="frame" x="146.5" y="321" width="82" height="22"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
