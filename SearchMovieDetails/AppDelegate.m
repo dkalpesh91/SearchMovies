@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MoviesSearchVC.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,24 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    MoviesSearchVC *moviesSearchVC;
+    
+    if ( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad )
+    {
+        UIStoryboard *extendedStoryboard = [UIStoryboard storyboardWithName:@"mainiPad" bundle:nil];
+        
+        moviesSearchVC = [extendedStoryboard instantiateViewControllerWithIdentifier:@"searchMovieiPad"];
+        self.window.rootViewController = moviesSearchVC;
+        
+    } else {
+        
+        UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        moviesSearchVC = [mainStoryboard instantiateViewControllerWithIdentifier:@"searchMovieiPhone"];
+        self.window.rootViewController = moviesSearchVC;
+    }
+
+    
     return YES;
 }
 
