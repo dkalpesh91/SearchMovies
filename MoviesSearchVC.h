@@ -14,4 +14,6 @@
 
 @interface MoviesSearchVC : UIViewController<NetworkHelperDelegate,UITextFieldDelegate>
 
+- (void)checkVC:(NSString *)text;
+
 @end

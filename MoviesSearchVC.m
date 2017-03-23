@@ -208,4 +208,11 @@
     self.titleByCheckMark.hidden = YES;
     searchBy = @"s";
 }
+
+
+#pragma mark - Movie Search Test Case Method
+- (void)checkVC:(NSString *)text {
+        NSLog(@"Movie Search VC Called");
+}
+
 @end
