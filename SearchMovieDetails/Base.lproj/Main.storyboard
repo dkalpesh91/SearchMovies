@@ -451,7 +451,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paintinglandscape.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZOP-mq-KlF">
-                                                    <rect key="frame" x="-12" y="8" width="399" height="148"/>
+                                                    <rect key="frame" x="28" y="8" width="319" height="148"/>
                                                     <color key="backgroundColor" red="0.085386164489999999" green="0.48004096750000003" blue="0.9989228845" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="148" id="elR-B8-pSO"/>
@@ -525,7 +525,7 @@
                                                 <constraint firstItem="Ntv-v2-XKR" firstAttribute="top" secondItem="kka-eC-Zl1" secondAttribute="bottom" constant="8" id="Baq-Zu-8z6"/>
                                                 <constraint firstItem="kka-eC-Zl1" firstAttribute="top" secondItem="QG6-Ov-6zW" secondAttribute="bottom" constant="8" id="EPW-rS-YhZ"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="rE2-RG-0dG" secondAttribute="trailing" constant="8" id="ZGd-CK-dTq"/>
-                                                <constraint firstItem="ZOP-mq-KlF" firstAttribute="leading" secondItem="lBz-VY-dve" secondAttribute="leadingMargin" constant="-20" id="b2q-D3-znk"/>
+                                                <constraint firstItem="ZOP-mq-KlF" firstAttribute="leading" secondItem="lBz-VY-dve" secondAttribute="leadingMargin" constant="20" id="b2q-D3-znk"/>
                                                 <constraint firstItem="cvq-P9-47a" firstAttribute="leading" secondItem="lBz-VY-dve" secondAttribute="leadingMargin" constant="8" id="bGt-Lk-4VZ"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="gDk-Yy-FXH" secondAttribute="trailing" constant="-8" id="chZ-pl-K1M"/>
                                                 <constraint firstItem="cvq-P9-47a" firstAttribute="top" secondItem="cgS-mb-OzW" secondAttribute="bottom" constant="4" id="d3W-m0-Rkk"/>
@@ -534,7 +534,7 @@
                                                 <constraint firstItem="QG6-Ov-6zW" firstAttribute="top" secondItem="ZOP-mq-KlF" secondAttribute="bottom" constant="3" id="k5O-K8-rkC"/>
                                                 <constraint firstItem="sLQ-X0-H36" firstAttribute="leading" secondItem="lBz-VY-dve" secondAttribute="leadingMargin" constant="8" id="kzi-Mt-dhf"/>
                                                 <constraint firstItem="cgS-mb-OzW" firstAttribute="leading" secondItem="lBz-VY-dve" secondAttribute="leadingMargin" constant="8" id="oi7-3L-xSy"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="ZOP-mq-KlF" secondAttribute="trailing" constant="-20" id="pND-gR-LdJ"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="ZOP-mq-KlF" secondAttribute="trailing" constant="20" id="pND-gR-LdJ"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="kka-eC-Zl1" secondAttribute="trailing" constant="8" id="pmq-NC-4ou"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="QG6-Ov-6zW" secondAttribute="trailing" constant="8" id="tky-ZF-cf3"/>
                                                 <constraint firstItem="gDk-Yy-FXH" firstAttribute="leading" secondItem="lBz-VY-dve" secondAttribute="leadingMargin" constant="-8" id="w52-jv-DGm"/>
